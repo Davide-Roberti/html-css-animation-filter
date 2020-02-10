@@ -137,3 +137,39 @@
     50% { right: 130px; }
     100% { right: 40px; }
 }
+
+/* soluzione ultimo esercizio */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: bordo-sopra-tredici 4s linear;
+}
+
+@keyframes bordo-sopra-tredici {
+    0% { left: 20px;
+        top: -10px; }
+    25% { left: 130px;
+         top: -10px; }
+    50% { left: 130px;
+        top: 100%; }
+    75% { left: 20px;
+        top: 100%; }
+    100% { left: 20px;
+        top: -10px; }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bordo-sotto-tredici 4s linear;
+}
+
+@keyframes bordo-sotto-tredici {
+    0% { right: 40px;
+        top: 100%; }
+    25% { right: 130px;
+         top: 100%; }
+    50% { right: 130px;
+        top: -10px; }
+    75% { right: 40px;
+        top: -10px; }
+    100% { right: 40px;
+        top: 100%; }
+}
