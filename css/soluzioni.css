@@ -68,3 +68,15 @@
     filter: sepia(0.8);
     filter: grayscale(0.7);
 }
+
+/* soluzione ottavo esercizio */
+
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(0.9);
+    filter: grayscale(0.8);
+    border-radius: 20px;
+}
