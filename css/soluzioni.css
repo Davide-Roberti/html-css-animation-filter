@@ -145,15 +145,19 @@
 }
 
 @keyframes bordo-sopra-tredici {
-    0% { left: 20px;
+    0% { left: 15px;
         top: -10px; }
-    25% { left: 130px;
+    20% { left: 130px;
          top: -10px; }
-    50% { left: 200px;
+    40% { left: 200px;
         top: 100%; }
-    75% { left: 130px;
+    60% { left: 130px;
         top: 100%; }
-    100% { left: 20px;
+    80% { left: 0;
+        top: 100%; }
+    90% { left: -10px;
+        top: -10px; }
+    100% { left: 15px;
         top: -10px; }
 }
 
@@ -164,12 +168,16 @@
 @keyframes bordo-sotto-tredici {
     0% { right: 40px;
         top: 100%; }
-    25% { right: 130px;
+    20% { right: 130px;
          top: 100%; }
-    50% { right: 200px;
+    40% { right: 200px;
         top: -10px; }
-    75% { right: 130px;
+    60% { right: 130px;
         top: -10px; }
+    80% { right: 0;
+        top: -10px; }
+    90% { right: -10px;
+        top: 100%; }
     100% { right: 40px;
         top: 100%; }
 }
