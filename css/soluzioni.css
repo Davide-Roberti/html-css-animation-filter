@@ -115,3 +115,25 @@
     75% { transform: rotate(0.85turn); }
     100% { transform: rotate(0); }
 }
+
+/*  soluzione dodicesimo esercizio */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: bordo-sopra 2s linear;
+}
+
+@keyframes bordo-sopra {
+    0% { left: 20px; }
+    50% { left: 130px; }
+    100% { left: 20px; }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bordo-sotto 2s linear;
+}
+
+@keyframes bordo-sotto {
+    0% { right: 40px; }
+    50% { right: 130px; }
+    100% { right: 40px; }
+}
