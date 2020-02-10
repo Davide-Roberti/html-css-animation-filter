@@ -93,3 +93,13 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* soluzione decimo esercizio */
+
+.ex-10-icon {
+    animation: giro 1.5s linear infinite;
+}
+
+@keyframes giro {
+    0% { transform: rotate(1turn); }
+}
