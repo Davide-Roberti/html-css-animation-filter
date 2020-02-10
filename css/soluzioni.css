@@ -149,9 +149,9 @@
         top: -10px; }
     25% { left: 130px;
          top: -10px; }
-    50% { left: 130px;
+    50% { left: 200px;
         top: 100%; }
-    75% { left: 20px;
+    75% { left: 130px;
         top: 100%; }
     100% { left: 20px;
         top: -10px; }
@@ -166,9 +166,9 @@
         top: 100%; }
     25% { right: 130px;
          top: 100%; }
-    50% { right: 130px;
+    50% { right: 200px;
         top: -10px; }
-    75% { right: 40px;
+    75% { right: 130px;
         top: -10px; }
     100% { right: 40px;
         top: 100%; }
