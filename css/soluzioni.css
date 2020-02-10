@@ -17,3 +17,13 @@
 .ex-2-square:active {
     width: 100%;
 }
+
+/* soluzione terzo esercizio */
+
+.ex-3-square {
+    transition: 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
