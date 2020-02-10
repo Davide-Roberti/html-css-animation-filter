@@ -54,10 +54,17 @@
 
 /* soluzione sesto esercizio */
 
-.ex-6-img {
-    transition: 0.5s;
+.ex-6-img:hover {
+    filter: grayscale(1);
 }
 
-.ex-6-img:hover {
-    filter: grayscale();
+/* soluzione settimo esercizio */
+
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(0.8);
+    filter: grayscale(0.7);
 }
