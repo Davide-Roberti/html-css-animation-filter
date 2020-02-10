@@ -103,3 +103,15 @@
 @keyframes giro {
     0% { transform: rotate(1turn); }
 }
+
+/* soluzione undicesimo esercizio */
+
+.ex-11-icon:hover {
+    animation: giro-due 2s linear;
+}
+
+@keyframes giro-due {
+    0% { transform: rotate(0); }
+    75% { transform: rotate(0.85turn); }
+    100% { transform: rotate(0); }
+}
