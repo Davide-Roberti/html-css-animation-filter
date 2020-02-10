@@ -147,15 +147,15 @@
 @keyframes bordo-sopra-tredici {
     0% { left: 15px;
         top: -10px; }
-    20% { left: 130px;
+    15% { left: 130px;
          top: -10px; }
-    40% { left: 200px;
+    30% { left: 200px;
         top: 100%; }
-    60% { left: 130px;
+    45% { left: 130px;
         top: 100%; }
-    80% { left: 0;
+    60% { left: 0;
         top: 100%; }
-    90% { left: -10px;
+    80% { left: -10px;
         top: -10px; }
     100% { left: 15px;
         top: -10px; }
@@ -168,15 +168,15 @@
 @keyframes bordo-sotto-tredici {
     0% { right: 40px;
         top: 100%; }
-    20% { right: 130px;
+    15% { right: 130px;
          top: 100%; }
-    40% { right: 200px;
+    30% { right: 200px;
         top: -10px; }
-    60% { right: 130px;
+    45% { right: 130px;
         top: -10px; }
-    80% { right: 0;
+    60% { right: 0;
         top: -10px; }
-    90% { right: -10px;
+    80% { right: -10px;
         top: 100%; }
     100% { right: 40px;
         top: 100%; }
