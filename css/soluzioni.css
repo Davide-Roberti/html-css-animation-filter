@@ -80,3 +80,16 @@
     filter: grayscale(0.8);
     border-radius: 20px;
 }
+
+/* soluzione nono esercizio */
+
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.9);
+    filter: grayscale(0.8);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
