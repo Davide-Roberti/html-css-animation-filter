@@ -1,7 +1,7 @@
 /* soluzione primo esercizio */
 
 .ex-1-square {
-    transition: 3s;
+    transition: background-color 3s;
 }
 
 .ex-1-square:hover {
@@ -11,7 +11,7 @@
 /* soluzione secondo esercizio */
 
 .ex-2-square {
-    transition: 3s;
+    transition: width 3s;
 }
 
 .ex-2-square:active {
@@ -21,9 +21,19 @@
 /* soluzione terzo esercizio */
 
 .ex-3-square {
-    transition: 2s;
+    transition: border-radius 2s;
 }
 
 .ex-3-square:hover {
     border-radius: 50%;
+}
+
+/* soluzione quarto esercizio */
+
+.ex-4-square {
+    transition: opacity 2s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
 }
